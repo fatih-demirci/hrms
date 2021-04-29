@@ -1,30 +1,39 @@
-package kodlamaioop;
+package KodlamaioInheritance;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class Course {
 
-    private int id;
+    private final int id;
     private String image;
     private String title;
     private String description;
-    private Educator educator;
+    private Instructor educator;
     private double price;
     private int complated;
+    private List<User> users;
 
-    public Course(int id, String image, String title, String description, Educator educator, double price) {
+    public Course(int id, String image, String title, String description, Instructor educator, double price) {
         this.id = id;
         this.image = image;
         this.title = title;
         this.description = description;
         this.educator = educator;
         this.price = price;
+        users = new ArrayList<>();
+    }
+
+    public List<User> getUsers() {
+        return users;
+    }
+
+    public void setUsers(List<User> users) {
+        this.users = users;
     }
 
     public int getId() {
         return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public String getImage() {
@@ -51,11 +60,11 @@ public class Course {
         this.description = description;
     }
 
-    public Educator getEducator() {
+    public Instructor getEducator() {
         return educator;
     }
 
-    public void setEducator(Educator educator) {
+    public void setEducator(Instructor educator) {
         this.educator = educator;
     }
 
