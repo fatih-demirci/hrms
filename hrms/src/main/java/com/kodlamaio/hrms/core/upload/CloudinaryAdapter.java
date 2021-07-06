@@ -14,9 +14,9 @@ import com.kodlamaio.hrms.core.utilities.result.SuccessDataResult;
 public class CloudinaryAdapter {
 
 	private static Cloudinary cloudinary = new Cloudinary(ObjectUtils.asMap(
-			"cloud_name" , "dptyd0j4m",
-			"api_key" , "849911617431147",
-			"api_secret" , "Fe7T8-P_sLeL2qaKtXrp8A8eVs0"
+			"cloud_name" , "d_t___j_m",
+			"api_key" , "_4___1617__11__",
+			"api_secret" , "_e___-P_sL_L_q___Xrp8__eV__"
 			));
 	
 	public static DataResult<Map> uploadImage(MultipartFile file){
