@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+.ui.main.container{
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+.ui.bottom.container{
+  padding-bottom: 5em;
+}
+
+.ui.top.container{
+  padding-top: 5em;
+}
+
+
+
