@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+
+.ui.main.container{
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+.ui.bottom.container{
+  padding-bottom: 5em;
+}
+
+.ui.top.container{
+  padding-top: 5em;
+}
+
+.ui.systemStaffCenter.grid{
+  padding-left: 13px;
+  padding-top: 20px;
+}
+
+.ui.employerCenter.grid{
+  padding-left: 13px;
+  padding-top: 20px;
+}
+
+.ui.guestCenter.grid{
+  padding-left: 13px;
+  padding-top: 20px;
+}
+
+.ui.jobSeekerCenter.grid{
+  padding-left: 13px;
+  padding-top: 13px;
+}
+
+.ui.buttonMarginLeft.button{
+ margin-left: 15px;
+}
+
+
+
+
